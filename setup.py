@@ -80,7 +80,7 @@ setup(name=about["__title__"],
       keywords="nlu nlp language machine learning text processing intent",
       packages=packages,
       package_data={
-                  'snips_nlu': ['data/*'],
+                  'snips_nlu': ['data/**/*'],
                },
       python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4',
       include_package_data=True,
