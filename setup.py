@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 packages = [p for p in find_packages()
             if "tests" not in p and "debug" not in p]
-
+print(packages)
 root = os.path.abspath(os.path.dirname(__file__))
 
 with io.open(os.path.join(root, "snips_nlu", "__about__.py"),
